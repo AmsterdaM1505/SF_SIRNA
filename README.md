@@ -107,6 +107,12 @@ curl -X POST http://localhost:8080/api/user/otp/validate \
 # OTP validated successfully
 ```
 
+Для использования SMPP можно скачать: https://www.auronsoftware.com/download/
+Необходимо запустить сервис активным параметром аутентификации и логином/паролем из properties
+
+Для использования SMTP можно скачать: https://github.com/Nilhcem/FakeSMTP
+Здесь ничего прописывать в сервисе не нужно. Просто выполнить curl запросы по шаблонам выше.
+
 ### Дополнительная информация
 ## 1. Конфигурация приложения и сборки (корень проекта)
 
